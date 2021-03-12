@@ -22,7 +22,7 @@
 	<!-- una hoja de estilos externa-->
 	
 	<!-- una hoja de estilos personalizada-->
-	<link href="https://github.com/ItsICJ/trabajoT2/tree/main/css/actualidad.css" rel="stylesheet"/>
+	<link href="./css/actualidad.css" rel="stylesheet"/>
 	
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -48,7 +48,7 @@
 	<div class="marco">
 		<div class="encabezado">
 			<nav class="nav-encabezado">
-				<div id="inicio-encabezado"><a href="https://github.com/ItsICJ/trabajoT2/index.html">Inicio</a></div>
+				<div id="inicio-encabezado"><a href="index.html">Inicio</a></div>
 				<div id="actualidad-encabezado"><a href="#">Actualidad</a></div>
 				<div id="blog-encabezado"><a href="#">Blog</a></div>
 				<div id="tendencias-encabezado"><a href="#">Tendencias</a></div>
@@ -61,7 +61,7 @@
 		</div>
 		<div class="lado">
 			<div class="nav-lado">
-				<div id="inicio-lado"><a href="https://github.com/ItsICJ/trabajoT2/index.html">Inicio</a></div>
+				<div id="inicio-lado"><a href="index.html">Inicio</a></div>
 				<div id="actualidad-lado"><a href="#">Actualidad</a></div>
 				<div id="blog-lado"><a href="#">Blog</a></div>
 				<div id="tendencias-lado"><a href="#">Tendencias</a></div>
@@ -70,12 +70,12 @@
 		</div>
 		<main class="contenido">
 			<div class="img1">
-				<img src="https://github.com/ItsICJ/trabajoT2/tree/main/imagenes/estafaromantica.jpg" class="corazon"/>	
+				<img src="./imagenes/estafaromantica.jpg" class="corazon"/>	
 			</div>
-			<h1>Ciberamenazas más recientes</h1><br>
+			<h1 id="inicio">Ciberamenazas más recientes</h1><br>
 			<p>¿Cuáles son las ciberamenazas más recientes contra las que deben protegerse las personas y las organizaciones? A continuación, se presentan algunas de las ciberamenazas más recientes comunicadas por los gobiernos de Estados Unidos, Australia y el Reino Unido.</p>
 			<div class="img2">
-				<img src="https://github.com/ItsICJ/trabajoT2/tree/main/imagenes/MalwareDridex.png" class="malware" />
+				<img src="./imagenes/MalwareDridex.png" class="malware" />
 			</div><br>
 			<h2>Malware Dridex</h2><br>
 			<p><mark id="verde">En diciembre del 2019</mark>, el <strong>Departamento de Justicia de los Estados Unidos (DoJ)</strong> imputó al líder de un grupo de cibercriminales organizados por su participación en un ataque global del malware Dridex. Esta campaña malintencionada afectó al público, al gobierno, a la infraestructura y a las empresas de todo el mundo.</p>
@@ -88,10 +88,10 @@
 			<h2>Malware Emotet</h2><br>
 			<p><mark id="verde">A finales del 2019</mark>, el <strong>Centro Australiano de Seguridad Cibernética</strong> advirtió a las organizaciones nacionales sobre la ciberamenaza mundial generalizada del malware Emotet.</p><br>
 			<p>Emotet es un sofisticado troyano que puede robar datos y también cargar otros malware. Emotet se aprovecha de las contraseñas poco sofisticadas y es un recordatorio de la importancia de crear una contraseña segura para protegerse de las ciberamenazas.</p><br>
-			<strong>En el siguiente vídeo podremos ahondar más en estas ciberamenazas y ver cómo combatirlas:</strong><br>
+			<strong>En el siguiente vídeo podremos ahondar más en estas ciberamenazas y ver cómo combatirlas:</strong><br><br>
+			<a href="#inicio" style="color: black;">Volver al principio</a><br><br>
 
-			<iframe id="video" width="560" height="315" src="https://www.youtube.com/watch?v=6a2vSMENbkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/t91xuZIuGYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</main>
 
 <!-- pie de página-->
@@ -109,7 +109,7 @@
 			sessionStorage.setItem('cont', x);
 			$("#contador").text(x);
 
-			$("#ruta").text("Ahora estás en 'Actualidad'.");
+			$("#ruta").text("Ahora estás en Actualidad.");
 
 		});
 	</script>

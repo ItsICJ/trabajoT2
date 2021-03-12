@@ -96,6 +96,7 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
       grid-row: 3 / span 1;
       overflow: auto;
       padding: 15px;
+      font-family: "Times New Roman", Times, serif;
       word-wrap: break-word; /* Con esta etiqueta se adjusta el texto automaticamente al div */
     }
     
