@@ -142,7 +142,20 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
     div.desc {
       padding: 15px;
       text-align: center;
-      border-top: 1px solid #ccc;
+      border-top: 2px solid gray;
+    }
+
+    div.cara{
+      width: auto;
+      margin-left: 10px;
+      float: left;
+      border: 2px solid gray;
+      margin-right: 10px; 
+      border-radius: 5px; 
+    }
+
+    img#img1 {
+      margin-left: 15px;
     }
 
     #ruta {
